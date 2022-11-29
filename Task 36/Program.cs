@@ -14,7 +14,7 @@ while (true)
     Console.WriteLine("Ошибка ввода!");
 }
 
-int[] array = GetArray(num, 0, 100);
+int[] array = GetArray(num, -100, 100);
 int num2 = sumOddElements(array);
 
 Console.Write($"[" + String.Join(", ", array) + $"]");
